@@ -129,7 +129,7 @@ console.log(upperFirst("ciao sono bilal"))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const cutString = function (str) {
-  let result = str.slice(1)
+  let result = str.slice(1, -1)
 
   return result
 }
